@@ -1,0 +1,17 @@
+{
+  "name": "cbo-engagement-desk",
+  "version": "1.0.0",
+  "description": "Scope-locked AI assistant for CBO partners: register Q&A, meeting planning, and budget estimates.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0",
+    "express": "^5.2.1"
+  }
+}

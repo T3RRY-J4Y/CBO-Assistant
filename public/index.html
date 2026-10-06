@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Engagement Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+  /* Wits RHI brand palette: RGB/HEX values for digital applications */
+  :root {
+    --bg: #FFFFFF;            /* White: backdrop, visual space */
+    --ink: #031F33;           /* Dark Blue: grounding, body text */
+    --teal-light: #17A3AB;    /* Light Teal: innovation, accents */
+    --teal-mid: #127582;      /* Mid Teal: primary actions */
+    --teal-dark: #143840;     /* Dark Teal: sophistication, header */
+    --blue-light: #178CCC;    /* Light Blue: focus states */
+    --blue-mid: #0F6699;      /* Mid Blue: links */
+    --grey: #B2B8BF;          /* Grey: neutral balance */
+    --line: #D8DCDF;          /* Grey tint: hairlines */
+    --gold: #B08B2F;          /* Gold: budget highlights */
+    --gold-tint: #F5EEDD;
+    --card: #FFFFFF;
+    --error: #8A6512;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  [hidden] { display: none !important; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .display { font-family: 'Montserrat', 'Trebuchet MS', sans-serif; }
+
+  /* Header */
+  .logo-bar { background: #FFFFFF; border-bottom: 1px solid var(--line); }
+  .logo-inner { max-width: 42rem; margin: 0 auto; padding: 0.7rem 1rem; }
+  .brand-logo { height: 56px; width: auto; display: block; }
+  .band { background: var(--teal-dark); color: #FFFFFF; }
+  .header-inner {
+    max-width: 42rem; margin: 0 auto; padding: 1.5rem 1rem 0;
+    display: flex; align-items: flex-start; justify-content: space-between; gap: 0.75rem;
+  }
+  header h1 {
+    font-weight: 600; font-size: 1.45rem; line-height: 1.2;
+    text-transform: uppercase; letter-spacing: 0.08em; margin-top: 0.2rem;
+  }
+  header .tagline { font-size: 0.875rem; margin-top: 0.35rem; opacity: 0.85; }
+  .scope {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    background: rgba(23, 163, 171, 0.2); border: 1px solid rgba(23, 163, 171, 0.45);
+    border-radius: 999px; padding: 0.25rem 0.75rem;
+    font-size: 0.75rem; white-space: nowrap; margin-top: 0.25rem;
+  }
+  .nav-inner {
+    max-width: 42rem; margin: 0 auto; padding: 1rem 1rem 0;
+    display: flex; justify-content: space-between; align-items: flex-end; gap: 0.75rem;
+  }
+  .tabs { display: flex; gap: 0.25rem; }
+  .tab {
+    border: 1px solid transparent; border-bottom: none;
+    border-radius: 10px 10px 0 0; color: rgba(255, 255, 255, 0.75);
+    background: transparent;
+    padding: 0.5rem 1rem; font: inherit; font-size: 0.875rem; cursor: pointer;
+  }
+  .tab[data-active="true"] { background: var(--bg); color: var(--ink); font-weight: 700; }
+  .whoami {
+    display: flex; align-items: center; gap: 0.5rem;
+    padding-bottom: 0.5rem; font-size: 0.8rem;
+  }
+  .signout {
+    background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.35);
+    color: #FFFFFF; border-radius: 999px; padding: 0.2rem 0.7rem;
+    font: inherit; font-size: 0.75rem; cursor: pointer;
+  }
+  .signout:hover { background: rgba(255, 255, 255, 0.25); }
+  .header-pad { padding-bottom: 1.25rem; }
+
+  /* Layout */
+  main {
+    width: 100%; max-width: 42rem; margin: 0 auto;
+    flex: 1; display: flex; flex-direction: column; padding: 0 1rem;
+  }
+  #viewChat { flex: 1; display: flex; flex-direction: column; }
+  #messages { flex: 1; overflow-y: auto; padding: 1.5rem 0; }
+
+  /* Auth card */
+  #viewAuth { width: 100%; max-width: 26rem; align-self: center; margin: 2.5rem 0; }
+  .auth-card {
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 4px solid var(--teal-light);
+    border-radius: 4px 16px 16px 16px; padding: 1.5rem;
+  }
+  .auth-card h2 { font-size: 1.25rem; font-weight: 600; }
+  .auth-card .sub { font-size: 0.85rem; margin-top: 0.25rem; opacity: 0.75; }
+  .auth-card label {
+    display: block; font-size: 0.75rem; font-weight: 700;
+    margin: 0.9rem 0 0.25rem;
+  }
+  .auth-card input {
+    width: 100%; padding: 0.6rem 0.75rem; border: 1px solid var(--grey);
+    border-radius: 0.6rem; font: inherit; font-size: 0.875rem;
+    background: #fff; color: var(--ink);
+  }
+  .btn-primary {
+    width: 100%; margin-top: 1.1rem; background: var(--teal-mid); color: #FFFFFF;
+    border: none; border-radius: 0.6rem; padding: 0.7rem;
+    font: inherit; font-weight: 700; cursor: pointer;
+  }
+  .btn-primary:hover { background: var(--teal-dark); }
+  .btn-primary:disabled { opacity: 0.5; cursor: default; }
+  .form-error { color: var(--error); font-size: 0.8rem; margin-top: 0.6rem; min-height: 1.1em; }
+  .switch { font-size: 0.8rem; margin-top: 1rem; text-align: center; }
+  .linklike {
+    background: none; border: none; color: var(--blue-mid); font: inherit;
+    font-size: inherit; text-decoration: underline; cursor: pointer; padding: 0;
+  }
+  .auth-note { font-size: 0.78rem; opacity: 0.65; margin-top: 0.75rem; }
+  .done-icon { font-size: 1.6rem; color: var(--teal-mid); }
+
+  /* Chat */
+  .row { display: flex; margin-top: 1rem; }
+  .row.user { justify-content: flex-end; }
+  .row.assistant { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  .bubble {
+    max-width: 28rem; padding: 0.75rem 1rem;
+    font-size: 0.875rem; line-height: 1.55; white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
+  .bubble.user { background: var(--teal-mid); color: #FFFFFF; border-radius: 16px 16px 4px 16px; }
+  .bubble.assistant {
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 4px solid var(--teal-light);
+    border-radius: 4px 16px 16px 16px;
+  }
+  .budget {
+    width: 100%; max-width: 28rem;
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 4px solid var(--gold);
+    border-radius: 4px 16px 16px 16px; overflow: hidden;
+  }
+  .budget .title { padding: 0.75rem 0.75rem 0.25rem; font-weight: 600; font-size: 0.875rem; }
+  .budget table { width: 100%; border-collapse: collapse; }
+  .budget th {
+    text-align: left; font-size: 0.625rem; text-transform: uppercase;
+    letter-spacing: 0.05em; opacity: 0.55; padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .budget td {
+    padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--line);
+    font-size: 0.75rem; vertical-align: top;
+  }
+  .budget .num {
+    text-align: right; white-space: nowrap;
+    font-family: ui-monospace, 'Courier New', monospace;
+  }
+  .budget .total td {
+    border-top: 2px solid var(--teal-dark); border-bottom: none;
+    font-weight: 700; background: var(--gold-tint);
+  }
+  .budget .notes { font-size: 0.75rem; opacity: 0.7; padding: 0.5rem 0.75rem; }
+  .welcome {
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 4px solid var(--teal-light);
+    border-radius: 4px 16px 16px 16px; padding: 1rem;
+  }
+  .welcome .lead { font-weight: 700; }
+  .welcome p { font-size: 0.875rem; margin-top: 0.25rem; }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+  .chip {
+    background: var(--card); border: 1px solid var(--grey);
+    border-radius: 999px; padding: 0.25rem 0.75rem;
+    font-size: 0.875rem; font-family: inherit; color: var(--ink);
+    cursor: pointer; transition: border-color 120ms ease;
+    display: inline-flex; align-items: center; gap: 0.3rem;
+  }
+  .chip:hover { border-color: var(--teal-mid); }
+  .chip.small { font-size: 0.75rem; padding: 0.2rem 0.6rem; }
+  .composer { padding-bottom: 1.5rem; }
+  .input-row { display: flex; gap: 0.5rem; }
+  #input {
+    flex: 1; background: var(--card); border: 1px solid var(--grey);
+    color: var(--ink); border-radius: 0.75rem; padding: 0.75rem 1rem;
+    font-size: 0.875rem; font-family: inherit;
+  }
+  #send {
+    background: var(--teal-mid); color: #FFFFFF; border: none;
+    border-radius: 0.75rem; padding: 0 1.1rem; font-size: 1rem;
+    cursor: pointer; font-family: inherit;
+  }
+  #send:hover { background: var(--teal-dark); }
+  #send:disabled { opacity: 0.5; cursor: default; }
+  .under {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-top: 0.5rem; gap: 0.5rem;
+  }
+  .under p { font-size: 0.75rem; opacity: 0.6; }
+  .dots span {
+    display: inline-block; width: 6px; height: 6px; margin-right: 4px;
+    border-radius: 999px; background: var(--teal-mid);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .dots span { animation: pulse 1s infinite ease-in-out; }
+    .dots span:nth-child(2) { animation-delay: 0.15s; }
+    .dots span:nth-child(3) { animation-delay: 0.3s; }
+    @keyframes pulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+  }
+
+  /* Admin */
+  #viewAdmin { padding: 1.5rem 0; }
+  #viewAdmin h2 { font-size: 1.25rem; font-weight: 600; }
+  #viewAdmin .sub { font-size: 0.85rem; margin-top: 0.25rem; opacity: 0.75; }
+  .admin-msg { font-size: 0.8rem; margin-top: 0.75rem; min-height: 1.1em; color: var(--teal-mid); }
+  .admin-msg.error { color: var(--error); }
+  .req-card {
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 4px solid var(--blue-mid);
+    border-radius: 12px; padding: 0.9rem 1rem; margin-top: 0.75rem;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 1rem; flex-wrap: wrap;
+  }
+  .req-meta .name { font-weight: 700; font-size: 0.9rem; }
+  .req-meta .org { font-size: 0.8rem; }
+  .req-meta .mail { font-size: 0.75rem; opacity: 0.65; }
+  .req-actions { display: flex; gap: 0.5rem; }
+  .btn-approve {
+    background: var(--teal-mid); color: #FFFFFF; border: none;
+    border-radius: 999px; padding: 0.35rem 0.9rem;
+    font: inherit; font-size: 0.8rem; cursor: pointer;
+  }
+  .btn-approve:hover { background: var(--teal-dark); }
+  .empty { font-size: 0.85rem; opacity: 0.65; margin-top: 1rem; }
+
+  button:focus-visible, input:focus-visible {
+    outline: 3px solid var(--blue-light); outline-offset: 2px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo-bar">
+    <div class="logo-inner">
+      <img class="brand-logo" src="/assets/wits-rhi-logo.png" alt="University of the Witwatersrand, Wits RHI" />
+    </div>
+  </div>
+  <div class="band">
+  <div class="header-inner">
+    <div>
+      <h1 class="display">Engagement Desk</h1>
+      <p class="tagline">Answers, meeting plans and budget estimates for CBO partners.</p>
+    </div>
+    <span class="scope">&#10003; Register-grounded</span>
+  </div>
+  <div class="nav-inner" id="navRow" hidden>
+    <div class="tabs">
+      <button class="tab" id="tabChat" data-active="true">Chat</button>
+      <button class="tab" id="tabAdmin" hidden>Approvals</button>
+    </div>
+    <div class="whoami">
+      <span id="userName"></span>
+      <button class="signout" id="logoutBtn">Sign out</button>
+    </div>
+  </div>
+  <div class="header-pad" id="headerPad"></div>
+  </div>
+</header>
+
+<main>
+  <!-- Sign in / register -->
+  <div id="viewAuth" hidden>
+    <div class="auth-card">
+      <div id="authLogin">
+        <h2 class="display">Sign in</h2>
+        <p class="sub">For approved CBO partners and the engagement office.</p>
+        <form id="loginForm">
+          <label for="loginEmail">Email</label>
+          <input id="loginEmail" type="email" autocomplete="email" required />
+          <label for="loginPassword">Password</label>
+          <input id="loginPassword" type="password" autocomplete="current-password" required />
+          <p class="form-error" id="loginError"></p>
+          <button class="btn-primary" type="submit">Sign in</button>
+        </form>
+        <p class="switch">New partner? <button class="linklike" id="toRegister">Request access</button></p>
+      </div>
+
+      <div id="authRegister" hidden>
+        <h2 class="display">Request access</h2>
+        <p class="sub">Tell us who you are. The engagement office reviews every request before access is granted.</p>
+        <form id="registerForm">
+          <label for="regName">Your name</label>
+          <input id="regName" type="text" autocomplete="name" required />
+          <label for="regOrg">Organisation (CBO)</label>
+          <input id="regOrg" type="text" autocomplete="organization" required />
+          <label for="regEmail">Email</label>
+          <input id="regEmail" type="email" autocomplete="email" required />
+          <label for="regPassword">Password (min 8 characters)</label>
+          <input id="regPassword" type="password" autocomplete="new-password" minlength="8" required />
+          <p class="form-error" id="regError"></p>
+          <button class="btn-primary" type="submit">Send request</button>
+        </form>
+        <p class="auth-note">You'll be able to sign in as soon as your request is approved.</p>
+        <p class="switch">Already approved? <button class="linklike" id="toLogin">Sign in</button></p>
+      </div>
+
+      <div id="authDone" hidden>
+        <p class="done-icon">&#9993;</p>
+        <h2 class="display">Request sent</h2>
+        <p class="sub" id="doneMsg"></p>
+        <p class="switch"><button class="linklike" id="doneToLogin">Back to sign in</button></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chat -->
+  <div id="viewChat" hidden>
+    <div id="messages" aria-live="polite"></div>
+    <div class="composer">
+      <div class="input-row">
+        <input id="input" placeholder="Ask, plan a meeting, or request an estimate&hellip;" aria-label="Your question" />
+        <button id="send" aria-label="Send question">&#10148;</button>
+      </div>
+      <div class="under">
+        <p>Answers and rates come only from the engagement register. Figures are estimates.</p>
+        <button id="reset" class="chip small" hidden>&#8634; Reset chat</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin approvals -->
+  <div id="viewAdmin" hidden>
+    <h2 class="display">Registration requests</h2>
+    <p class="sub">Only you can approve or reject access. Approved partners can sign in immediately.</p>
+    <p class="admin-msg" id="adminMsg"></p>
+    <div id="requests"></div>
+  </div>
+</main>
+
+<script>
+  const STARTERS = [
+    "Plan a community meeting for 60 people",
+    "Estimate costs for a half-day workshop for 40 people",
+    "When is our next report due?",
+  ];
+
+  const messages = [];
+  let loading = false;
+  let currentUser = null;
+  let activeTab = "chat";
+
+  const el = (id) => document.getElementById(id);
+  const show = (node, on) => { node.hidden = !on; };
+
+  async function api(path, options = {}) {
+    const res = await fetch(path, {
+      headers: { "Content-Type": "application/json" },
+      ...options,
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      const err = new Error(data.error || "Something went wrong.");
+      err.status = res.status;
+      throw err;
+    }
+    return data;
+  }
+
+  /* ------------------------------ Shell ------------------------------ */
+
+  function renderShell() {
+    const authed = !!currentUser;
+    show(el("viewAuth"), !authed);
+    show(el("navRow"), authed);
+    show(el("headerPad"), !authed);
+    if (!authed) {
+      show(el("viewChat"), false);
+      show(el("viewAdmin"), false);
+      return;
+    }
+    el("userName").textContent = currentUser.name;
+    const isAdmin = currentUser.role === "admin";
+    show(el("tabAdmin"), isAdmin);
+    if (!isAdmin) activeTab = "chat";
+    el("tabChat").dataset.active = activeTab === "chat";
+    el("tabAdmin").dataset.active = activeTab === "admin";
+    show(el("viewChat"), activeTab === "chat");
+    show(el("viewAdmin"), activeTab === "admin");
+    if (activeTab === "admin") loadRequests();
+    renderChat();
+  }
+
+  function signedOut(message) {
+    currentUser = null;
+    messages.length = 0;
+    authPanel("login");
+    el("loginError").textContent = message || "";
+    renderShell();
+  }
+
+  /* ------------------------------ Auth ------------------------------- */
+
+  function authPanel(name) {
+    show(el("authLogin"), name === "login");
+    show(el("authRegister"), name === "register");
+    show(el("authDone"), name === "done");
+  }
+
+  el("toRegister").addEventListener("click", () => { authPanel("register"); });
+  el("toLogin").addEventListener("click", () => { authPanel("login"); });
+  el("doneToLogin").addEventListener("click", () => { authPanel("login"); });
+
+  el("loginForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    el("loginError").textContent = "";
+    try {
+      const data = await api("/api/login", {
+        method: "POST",
+        body: JSON.stringify({
+          email: el("loginEmail").value,
+          password: el("loginPassword").value,
+        }),
+      });
+      currentUser = data.user;
+      activeTab = "chat";
+      el("loginPassword").value = "";
+      renderShell();
+    } catch (err) {
+      el("loginError").textContent = err.message;
+    }
+  });
+
+  el("registerForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    el("regError").textContent = "";
+    try {
+      const data = await api("/api/register", {
+        method: "POST",
+        body: JSON.stringify({
+          name: el("regName").value,
+          organisation: el("regOrg").value,
+          email: el("regEmail").value,
+          password: el("regPassword").value,
+        }),
+      });
+      el("doneMsg").textContent = data.message;
+      el("registerForm").reset();
+      authPanel("done");
+    } catch (err) {
+      el("regError").textContent = err.message;
+    }
+  });
+
+  el("logoutBtn").addEventListener("click", async () => {
+    try { await api("/api/logout", { method: "POST" }); } catch (err) {}
+    signedOut();
+  });
+
+  el("tabChat").addEventListener("click", () => { activeTab = "chat"; renderShell(); });
+  el("tabAdmin").addEventListener("click", () => { activeTab = "admin"; renderShell(); });
+
+  /* ------------------------------ Admin ------------------------------ */
+
+  async function loadRequests() {
+    const list = el("requests");
+    const msg = el("adminMsg");
+    msg.className = "admin-msg";
+    try {
+      const data = await api("/api/admin/requests");
+      list.textContent = "";
+      if (data.requests.length === 0) {
+        const p = document.createElement("p");
+        p.className = "empty";
+        p.textContent = "No pending requests.";
+        list.appendChild(p);
+        return;
+      }
+      data.requests.forEach((r) => {
+        const card = document.createElement("div");
+        card.className = "req-card";
+
+        const meta = document.createElement("div");
+        meta.className = "req-meta";
+        const name = document.createElement("p");
+        name.className = "name";
+        name.textContent = r.name;
+        const org = document.createElement("p");
+        org.className = "org";
+        org.textContent = r.organisation;
+        const mail = document.createElement("p");
+        mail.className = "mail";
+        mail.textContent = r.email + " · requested " + new Date(r.createdAt).toLocaleDateString();
+        meta.append(name, org, mail);
+
+        const actions = document.createElement("div");
+        actions.className = "req-actions";
+        const approve = document.createElement("button");
+        approve.className = "btn-approve";
+        approve.textContent = "Approve";
+        approve.addEventListener("click", () => decide(r.id, "approve"));
+        const reject = document.createElement("button");
+        reject.className = "chip";
+        reject.textContent = "Reject";
+        reject.addEventListener("click", () => decide(r.id, "reject"));
+        actions.append(approve, reject);
+
+        card.append(meta, actions);
+        list.appendChild(card);
+      });
+    } catch (err) {
+      if (err.status === 401) return signedOut("Your session expired. Sign in again.");
+      msg.className = "admin-msg error";
+      msg.textContent = err.message;
+    }
+  }
+
+  async function decide(id, action) {
+    const msg = el("adminMsg");
+    msg.className = "admin-msg";
+    try {
+      const data = await api("/api/admin/requests/" + id + "/" + action, { method: "POST" });
+      msg.textContent = data.message;
+      loadRequests();
+    } catch (err) {
+      if (err.status === 401) return signedOut("Your session expired. Sign in again.");
+      msg.className = "admin-msg error";
+      msg.textContent = err.message;
+    }
+  }
+
+  /* ------------------------------ Chat ------------------------------- */
+
+  function parseAssistant(content) {
+    const budgets = [];
+    const prose = content
+      .replace(/```budget([\s\S]*?)```/g, (match, body) => {
+        try {
+          budgets.push(JSON.parse(body.trim()));
+          return "";
+        } catch (err) {
+          return match;
+        }
+      })
+      .replace(/\n{3,}/g, "\n\n")
+      .trim();
+    return { prose, budgets };
+  }
+
+  function budgetCard(budget) {
+    const cur = budget.currency || "R";
+    const items = Array.isArray(budget.items) ? budget.items : [];
+    const line = (it) => (Number(it.qty) || 0) * (Number(it.unitCost) || 0);
+    const fmt = (n) => cur + n.toLocaleString(undefined, { maximumFractionDigits: 2 });
+
+    const card = document.createElement("div");
+    card.className = "budget";
+
+    const title = document.createElement("p");
+    title.className = "title display";
+    title.textContent = budget.title || "Budget estimate";
+    card.appendChild(title);
+
+    const table = document.createElement("table");
+    const head = table.createTHead().insertRow();
+    ["Item", "Qty", "Unit cost", "Total"].forEach((label, i) => {
+      const th = document.createElement("th");
+      th.textContent = label;
+      if (i > 0) th.className = "num";
+      head.appendChild(th);
+    });
+
+    const body = table.createTBody();
+    let grand = 0;
+    items.forEach((it) => {
+      const total = line(it);
+      grand += total;
+      const tr = body.insertRow();
+      const cells = [
+        String(it.item || ""),
+        ((it.qty ?? "") + " " + (it.unit || "")).trim(),
+        fmt(Number(it.unitCost) || 0),
+        fmt(total),
+      ];
+      cells.forEach((text, i) => {
+        const td = tr.insertCell();
+        td.textContent = text;
+        if (i > 0) td.className = "num";
+      });
+    });
+
+    const totalRow = body.insertRow();
+    totalRow.className = "total";
+    const labelCell = totalRow.insertCell();
+    labelCell.colSpan = 3;
+    labelCell.textContent = "Estimated total";
+    const totalCell = totalRow.insertCell();
+    totalCell.className = "num";
+    totalCell.textContent = fmt(grand);
+
+    card.appendChild(table);
+
+    if (budget.notes) {
+      const notes = document.createElement("p");
+      notes.className = "notes";
+      notes.textContent = budget.notes;
+      card.appendChild(notes);
+    }
+    return card;
+  }
+
+  function renderChat() {
+    const listEl = el("messages");
+    listEl.textContent = "";
+
+    if (messages.length === 0) {
+      const welcome = document.createElement("div");
+      welcome.className = "welcome";
+      const lead = document.createElement("p");
+      lead.className = "lead";
+      lead.textContent = currentUser
+        ? "Welcome, " + currentUser.name.split(" ")[0] + "."
+        : "Welcome to the Engagement Desk.";
+      const sub = document.createElement("p");
+      sub.textContent =
+        "Ask about your engagement, get help planning a community meeting, or request a budget estimate built from the standard rates. Anything outside that scope is politely declined.";
+      const chips = document.createElement("div");
+      chips.className = "chips";
+      STARTERS.forEach((q) => {
+        const chip = document.createElement("button");
+        chip.className = "chip";
+        chip.textContent = q;
+        chip.addEventListener("click", () => send(q));
+        chips.appendChild(chip);
+      });
+      welcome.append(lead, sub, chips);
+      listEl.appendChild(welcome);
+    }
+
+    messages.forEach((m) => {
+      const row = document.createElement("div");
+      row.className = "row " + m.role;
+      if (m.role === "user") {
+        const bubble = document.createElement("div");
+        bubble.className = "bubble user";
+        bubble.textContent = m.content;
+        row.appendChild(bubble);
+      } else {
+        const { prose, budgets } = parseAssistant(m.content);
+        if (prose) {
+          const bubble = document.createElement("div");
+          bubble.className = "bubble assistant";
+          bubble.textContent = prose;
+          row.appendChild(bubble);
+        }
+        budgets.forEach((b) => row.appendChild(budgetCard(b)));
+      }
+      listEl.appendChild(row);
+    });
+
+    if (loading) {
+      const row = document.createElement("div");
+      row.className = "row assistant";
+      const bubble = document.createElement("div");
+      bubble.className = "bubble assistant";
+      const dots = document.createElement("span");
+      dots.className = "dots";
+      dots.setAttribute("aria-label", "Assistant is typing");
+      for (let i = 0; i < 3; i++) dots.appendChild(document.createElement("span"));
+      bubble.appendChild(dots);
+      row.appendChild(bubble);
+      listEl.appendChild(row);
+    }
+
+    el("reset").hidden = messages.length === 0;
+    el("send").disabled = loading;
+    listEl.scrollTop = listEl.scrollHeight;
+  }
+
+  async function send(text) {
+    const inputEl = el("input");
+    const question = (text ?? inputEl.value).trim();
+    if (!question || loading) return;
+
+    messages.push({ role: "user", content: question });
+    inputEl.value = "";
+    loading = true;
+    renderChat();
+
+    try {
+      const data = await api("/api/chat", {
+        method: "POST",
+        body: JSON.stringify({ messages }),
+      });
+      messages.push({ role: "assistant", content: data.reply });
+    } catch (err) {
+      if (err.status === 401) {
+        loading = false;
+        return signedOut("Your session expired. Sign in again.");
+      }
+      messages.push({ role: "assistant", content: err.message });
+    } finally {
+      loading = false;
+      renderChat();
+      inputEl.focus();
+    }
+  }
+
+  el("send").addEventListener("click", () => send());
+  el("input").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") send();
+  });
+  el("reset").addEventListener("click", () => {
+    messages.length = 0;
+    renderChat();
+  });
+
+  /* ------------------------------ Init ------------------------------- */
+
+  (async () => {
+    try {
+      const data = await api("/api/me");
+      currentUser = data.user;
+    } catch (err) {
+      currentUser = null;
+    }
+    renderShell();
+  })();
+</script>
+</body>
+</html>

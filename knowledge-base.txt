@@ -1,0 +1,641 @@
+=== ABOUT THIS KNOWLEDGE BASE ===
+This file is everything the Engagement Desk knows. Engagement records, contacts and rates are SAMPLE DATA: replace them with your own.
+Sections: engagement register, standard rates, additional rates, policies, budgeting rules, reporting calendar, meeting types, audiences, topics, settings, languages, calendar and awareness days, planning timeline, logistics, risks, safeguarding, data protection, monitoring and evaluation, report templates, referral directory, contacts, FAQs, glossary, and a guide to combining building blocks.
+When a request is specific (a meeting type plus an audience plus a topic plus a setting), combine the matching blocks from each section rather than using one template as-is.
+
+=== CBO ENGAGEMENT REGISTER (SAMPLE DATA: replace with your own) ===
+
+ENGAGEMENT ENG-2026-001
+Partner: Thandi Youth Development Collective
+Programme: After-school tutoring and digital literacy
+Status: Active
+Period: 1 Feb 2026 – 30 Nov 2026
+Funding: R450,000 grant, disbursed quarterly on report approval
+Sites: 3 programme sites, 120 learners enrolled
+Key milestone: Mid-year progress report due 15 Aug 2026
+Latest update: Q1 report received and approved on 20 Apr 2026.
+
+ENGAGEMENT ENG-2026-002
+Partner: Green Roots Food Security Network
+Programme: Community garden expansion (12 new gardens)
+Status: Active
+Period: 1 Mar 2026 – 28 Feb 2027
+Funding: R280,000 grant, plus tools and seedling stock in kind
+Key milestone: Site readiness assessments due 31 Jul 2026
+Latest update: 7 of 12 garden sites confirmed; water access still pending at 2 sites.
+
+ENGAGEMENT ENG-2025-014
+Partner: Bright Path Health Outreach
+Programme: Mobile clinic support
+Status: Closed, completed 12 Dec 2025
+Funding: R600,000, fully disbursed
+Outcome: 4,800 patient visits across 16 outreach days; final report approved.
+
+ENGAGEMENT ENG-2026-003
+Partner: Siyakhula Youth Health Forum
+Programme: Youth HIV prevention dialogues and PrEP demand creation (ages 15–24)
+Status: Active
+Period: 1 Apr 2026 – 31 Mar 2027
+Funding: R320,000 grant, disbursed quarterly on report approval (R160,000 disbursed to date)
+Sites: 4 wards, meetings in community halls, schools (with principal approval) and youth centres
+Targets: 24 youth dialogues, 1,200 young people reached, 300 referred for HIV testing, 120 referred for PrEP
+Progress to 30 Sep 2026: 11 dialogues held, 610 young people reached, 164 referred for testing, 51 referred for PrEP
+Key milestone: Q3 report (Jul–Sep) due 15 Oct 2026
+Upcoming: Youth Day follow-up dialogue series in November; World AIDS Day youth event on 1 Dec 2026
+Contact person: Lerato Mokoena, programme coordinator
+Latest update: Q2 report approved 28 Jul 2026. PrEP referrals are behind target; a PrEP myth-busting session format is being piloted.
+
+ENGAGEMENT ENG-2026-004
+Partner: Ubuntu Men's Health Circle
+Programme: Men's health dialogues to increase HIV testing and treatment uptake among men aged 25–49
+Status: Active
+Period: 1 May 2026 – 30 Apr 2027
+Funding: R210,000 grant, disbursed quarterly on report approval (R70,000 disbursed to date)
+Sites: Taxi ranks, sports fields, taverns (daytime, before trading hours) and workplaces in 2 sub-districts
+Targets: 18 men's dialogues, 900 men reached, 400 HIV tests through the partner clinic's mobile testing team
+Progress to 30 Sep 2026: 6 dialogues held, 340 men reached, 132 tested
+Key milestone: Q3 report due 15 Oct 2026
+Upcoming: Soccer tournament health day planned for late November (budget needs pre-approval)
+Contact person: Sipho Dlamini, director
+Latest update: Q2 report approved 5 Aug 2026 after a one-week extension. Evening and weekend sessions work best for this audience.
+
+ENGAGEMENT ENG-2026-005
+Partner: Safe Haven Women's Network
+Programme: GBV survivor support groups and community GBV awareness
+Status: Active
+Period: 1 Jan 2026 – 31 Dec 2026
+Funding: R390,000 grant, disbursed quarterly on report approval (R292,500 disbursed to date)
+Sites: 2 support group venues (church hall and community centre), 1 shelter referral partner
+Targets: 8 support groups running weekly, 4 community awareness events, 16 Days of Activism campaign
+Key milestone: 16 Days of Activism campaign, 25 Nov – 10 Dec 2026; campaign plan due 30 Oct 2026
+Safeguarding: All facilitators completed trauma-informed and safeguarding training in Feb 2026. Survivor identities are never recorded in event reports.
+Contact person: Nomvula Khumalo, programme manager
+Latest update: Q2 report approved 22 Jul 2026. Q3 report due 15 Oct 2026. Final report due 31 Jan 2027.
+
+ENGAGEMENT ENG-2026-006
+Partner: Ikhwezi Community Advisory Board
+Programme: Community Advisory Board (CAB) meetings and community feedback on health research studies
+Status: Active
+Period: 1 Jan 2026 – 31 Dec 2027
+Funding: R150,000 per year, disbursed twice yearly (January and July)
+Sites: Monthly meetings at the research site boardroom; quarterly community feedback meetings in the wards
+Meeting rhythm: CAB meets on the second Tuesday of each month, 10:00–13:00
+Targets: 12 CAB meetings and 4 community feedback meetings per year; CAB member refresher training once a year
+Key milestone: Annual CAB refresher training planned for November 2026
+Contact person: Thabo Nkosi, CAB chairperson
+Latest update: CAB reviewed 3 new study protocols' community materials in 2026. Two CAB seats are vacant; nominations open until 31 Oct 2026.
+
+ENGAGEMENT ENG-2026-007
+Partner: Ithemba Disability Inclusion Forum
+Programme: Accessible health information for Deaf and disabled community members (SASL, large print, audio)
+Status: Onboarding, not yet active
+Period: Planned 1 Nov 2026 – 31 Oct 2027
+Funding: R180,000 grant, first disbursement on contract signature
+Outstanding onboarding documents: bank confirmation letter and signed safeguarding policy
+Contact person: Zanele Mthembu, founder
+Latest update: Due diligence completed 18 Sep 2026. Contract will be issued once the 2 outstanding documents are received.
+
+ENGAGEMENT ENG-2026-008
+Partner: Kasi Minds Mental Health Collective
+Programme: Peer-led mental health support groups for young adults (18–35)
+Status: On hold since 12 Aug 2026
+Period: 1 Mar 2026 – 28 Feb 2027
+Funding: R160,000 grant (R40,000 disbursed to date)
+Reason on hold: Q1 financial report and supporting receipts outstanding. Disbursements resume within 14 days of approval once submitted.
+Contact person: Kabelo Molefe, coordinator
+Latest update: Engagement office met the partner on 15 Sep 2026; submission expected by 15 Oct 2026.
+
+ENGAGEMENT ENG-2025-009
+Partner: Masakhane Elders Care Network
+Programme: Home visits for older persons and chronic medication adherence support
+Status: Active under a no-cost extension
+Period: 1 Apr 2025 – 31 Mar 2026, extended (no-cost) to 31 Dec 2026
+Funding: R240,000, R228,000 disbursed; R12,000 balance released on approval of the final report
+Sites: 1 ward, 85 older persons enrolled
+Key milestone: Final narrative and financial report due 31 Jan 2027
+Contact person: Mama Grace Sithole, coordinator
+Latest update: No-cost extension approved 10 Mar 2026 to use underspent funds for a medication pick-up point awareness drive.
+
+ENGAGEMENT ENG-2025-011
+Partner: Tsogang Rural Health Volunteers
+Programme: Village-based TB screening and referral
+Status: Closed, project activities ended 30 Jun 2026
+Period: 1 Jul 2025 – 30 Jun 2026
+Funding: R300,000, R270,000 disbursed; R30,000 retention pending final report approval
+Outcome: 3,950 people screened for TB symptoms in 22 villages, 410 referred, 38 confirmed TB cases started on treatment
+Key milestone: Final report submitted 29 Aug 2026; under review
+Latest update: Final report queries sent 20 Sep 2026 (missing attendance registers for 3 villages).
+
+=== STANDARD RATES FOR BUDGETING (2026) ===
+Venue hire (community hall): R1,200 per half day, R2,000 per full day
+Catering: R85 per person (light meal and refreshments)
+Transport reimbursement: R60 per attendee
+Facilitator stipend: R750 per session
+Printing and materials: R15 per attendee pack
+PA system hire: R450 per day
+Mobile data for registration: R150 per event
+Contingency: add 10% of the subtotal to every budget
+
+=== ADDITIONAL RATES (2026, OPTIONAL LINE ITEMS: add only when the event needs them) ===
+Venue hire (conference venue, up to 100 people): R4,500 per full day
+Venue hire (school classroom or church hall, by donation): R500 per half day
+Marquee tent (seats 50): R2,800 per day
+Gazebo (3m x 3m): R500 per day
+Chairs: R12 per chair per day
+Trestle tables: R60 per table per day
+Mobile toilets: R650 per unit per day (1 unit per 50 people for outdoor events over 4 hours)
+Generator hire (backup power): R900 per day
+Large outdoor stage and sound system: R3,500 per day
+Loud hailer or community announcer vehicle: R350 per day
+Security guard: R550 per guard per day (1 guard per 100 people at public outdoor events)
+First aid or EMS standby: R1,500 per event (required for outdoor events over 200 people)
+South African Sign Language (SASL) interpreter: R650 per interpreter per hour, 2-hour minimum; book 2 interpreters for sessions over 1 hour
+Spoken language interpreter: R450 per hour
+Written translation of materials: R1.20 per word
+Large print or Braille materials: R40 per pack
+Childcare corner (carer): R400 per carer per half day (1 carer per 8 children)
+Co-facilitator stipend: R500 per session
+Peer educator stipend: R250 per day
+Volunteer allowance (meal and transport): R120 per volunteer per day
+Guest speaker honorarium: R1,500 per event
+Refreshments only (tea, coffee, biscuits): R35 per person
+Full lunch (sit-down or hot buffet): R140 per person
+Bottled water only: R10 per person
+Overnight accommodation (guesthouse, bed and breakfast): R950 per person per night
+Dinner for overnight participants: R180 per person
+Mileage (own vehicle, with logbook): R4.80 per km
+Minibus taxi hire (15-seater, driver and fuel within 100 km): R1,800 per day
+Bus hire (60-seater): R5,500 per day
+Data voucher for virtual participants: R50 per participant per session
+Branded T-shirts: R95 per shirt
+Pull-up banner: R850 each
+A5 flyers (full colour): R1.50 per flyer
+A2 posters: R35 per poster
+Flipchart paper, markers and stationery: R250 per workshop
+Photographer: R1,800 per half day
+Videographer: R3,500 per day
+Community radio advert: R600 per 30-second slot
+Prizes for sports or quiz activities: R1,000 per event maximum
+Certificates of attendance (printed): R10 per certificate
+Courier of documents or materials: R250 per delivery
+
+=== POLICIES AND PROCESSES ===
+Reporting: Partners submit progress reports quarterly through the partner portal.
+Disbursements: Funding is released within 14 days of report approval.
+Event budgets: Budgets over R10,000 need pre-approval from the engagement office.
+Contact changes: Email engagements@example.org to update partner contact details.
+Office hours: The engagement office is available weekdays 08:00–16:30.
+Pre-approval timing: Submit event pre-approval requests at least 10 working days before the event, with the budget, agenda and expected attendance.
+Large events: Events costing more than R50,000 also need sign-off from the programme manager and should be submitted at least 20 working days ahead.
+Late reports: Reports more than 14 days late put the engagement on hold; disbursements pause until the report is approved.
+Report extensions: Request an extension in writing before the due date. One extension of up to 7 days can be granted per quarter.
+Report review: The engagement office reviews reports within 10 working days and either approves them or sends queries. Partners answer queries within 5 working days.
+Financial reports: Every quarterly report includes a financial report with receipts, signed attendance registers and proof of payment for all spend.
+No-cost extensions: Request at least 30 days before the end date, explaining what the remaining funds will achieve. The total grant amount does not change.
+Contract amendments: Changes to targets, sites or activities need a written amendment approved by the engagement office before they happen.
+Budget reallocation: Partners may move up to 10% of any budget line to another line without approval. Larger moves need written approval first.
+Underspend: Unspent funds at the end of an engagement are returned or offset against the final disbursement, unless a no-cost extension is approved.
+Retention: The final 10% of a grant is held back and released on approval of the final narrative and financial report.
+Close-out: Final narrative and financial reports are due within 30 days of the engagement end date, unless the contract says otherwise.
+Records: Keep receipts, registers and financial records for 5 years after the engagement closes.
+Onboarding documents: NPO registration certificate, constitution, bank confirmation letter, latest annual financial statements or management accounts, board list, signed safeguarding policy and signed code of conduct.
+Due diligence: New partners complete a due diligence check (governance, finance, safeguarding) before a contract is issued; it usually takes 3 to 4 weeks.
+Conflict of interest: Declare any family or business link to suppliers, staff or the engagement office before procurement. Declared conflicts are managed, not automatically disqualifying.
+Branding: Use the funder and partner logos together on banners, flyers and T-shirts. Send artwork to comms@example.org for approval 5 working days before printing.
+Media: Media interviews or press statements about the engagement need approval from comms@example.org first.
+Photos: Written consent is needed for every identifiable person photographed. Never photograph support group members, survivors or children without explicit written consent, and never at all in sensitive sessions.
+Social media: Do not post participant names, faces or locations of support groups. Event photos may be posted only with consent.
+Incident reporting: Report any serious incident (injury, safeguarding concern, theft, violence, media crisis) to the engagement office within 24 hours using the incident form.
+Complaints: Community members can lodge complaints through the partner or directly at complaints@example.org. Complaints are acknowledged within 3 working days.
+Fraud: Suspected fraud or misuse of funds must be reported to the engagement office or the confidential line at ethics@example.org. Whistle-blowers are protected.
+Political neutrality: Engagement activities may not be used for party political campaigning, and no party regalia is allowed at funded events.
+Alcohol: No funded event may serve or pay for alcohol.
+Health and safety: Every event has a named safety lead, a first aid kit, a known emergency exit and the nearest clinic or hospital noted on the run sheet.
+Research activities: Any activity that collects data for research (surveys, recorded focus groups) needs ethics approval through the research team before it starts. Routine attendance registers and event evaluations do not.
+
+=== BUDGETING RULES AND ALLOWABLE COSTS ===
+Rates are VAT-inclusive estimates. Actual quotes may differ; budget from the standard rates unless you have a quote.
+Contingency: Every budget includes 10% contingency as its own line, unless the engagement office agrees otherwise.
+Quotes: Purchases under R2,000 need one quote or a receipt. R2,000 to R10,000 need two written quotes. Above R10,000 need three written quotes.
+Supplier choice: Prefer local suppliers from the community where prices are comparable. Choose the best value quote, not only the cheapest, and record why.
+Petty cash: A petty cash float of up to R2,000 is allowed, with a petty cash book and slips for every payment.
+Transport reimbursement: Pay against a signed reimbursement register (name, signature, amount). Use cash or e-wallet transfers, never personal accounts of staff.
+Catering numbers: Order catering for confirmed numbers plus 10%. For open community events, order for 80% of the expected turnout and arrange a top-up option.
+Stipend vs reimbursement: A stipend pays for work (facilitators, peer educators). A reimbursement covers costs (transport, data). Participants receive reimbursements, not payment for attending.
+Participant reimbursements for research activities follow the ethics-approved amount, not the standard transport rate.
+Allowable costs: Venue, catering, transport reimbursement, stipends, materials, printing, equipment hire, interpreters, accessibility support, childcare, safety and security, data for virtual participation, approved branding.
+Not allowable: Alcohol, gifts or cash handouts beyond approved reimbursements, fines and penalties, political or religious campaigning, vehicle purchases, personal items, entertainment unrelated to the programme, and any cost incurred before the contract start date.
+Equipment purchases: Items over R5,000 each need prior approval and are recorded on an asset register.
+Accessibility costs (SASL interpreters, large print, ramps, childcare) are always allowable and should be budgeted rather than left out.
+Multi-day budgets: Repeat daily lines (venue, catering, PA, transport) for each day. Accommodation is per night, usually days minus one.
+Series budgets: For a series of sessions, budget per session and multiply, then add one contingency line on the total.
+Budget presentation: Show item, quantity, unit, unit cost and line total, then the subtotal, contingency and total.
+
+=== REPORTING CALENDAR (2026–2027) ===
+Q3 2026 (Jul–Sep): quarterly report due 15 Oct 2026.
+Q4 2026 (Oct–Dec): quarterly report due 15 Jan 2027.
+Annual report for engagements running through 2026: due 31 Jan 2027.
+Q1 2027 (Jan–Mar): quarterly report due 15 Apr 2027.
+Q2 2027 (Apr–Jun): quarterly report due 15 Jul 2027.
+Event reports: due within 7 days after any funded event over R10,000.
+Incident reports: due within 24 hours of the incident.
+Final reports: due within 30 days of the engagement end date.
+If a due date falls on a weekend or public holiday, the report is due the next working day.
+
+=== MEETING TYPES: PURPOSE, SIZE AND SAMPLE AGENDAS ===
+
+MEETING TYPE: Community dialogue (imbizo-style open meeting)
+Purpose: open discussion with community members on a health or social issue, gather views and share information.
+Size and length: 40 to 150 people, 2.5 to 3 hours, usually a half day.
+Sample agenda (half day, 09:00–12:30):
+09:00 Arrival, registration, refreshments
+09:30 Welcome, opening (prayer or moment of silence if customary), introductions and ground rules
+09:45 Purpose of the meeting and short input by facilitator or guest speaker (15 min)
+10:00 Open discussion in plenary, or small groups with feedback
+11:15 Questions and answers with service providers
+11:45 Summary of what was heard and agreed next steps
+12:00 Vote of thanks, closing, light meal
+Typical budget lines: venue (half day), catering, transport reimbursement, facilitator stipend, printing, PA system, mobile data, contingency.
+
+MEETING TYPE: Focus group discussion (FGD)
+Purpose: in-depth views from a small, similar group (same age band, gender or experience).
+Size and length: 8 to 12 participants, 90 minutes to 2 hours. Run separate groups for different audiences rather than mixing.
+Sample agenda (2 hours):
+00:00 Welcome, consent process, ground rules on confidentiality
+00:15 Warm-up question
+00:25 Main discussion questions (4 to 6 questions)
+01:35 Closing question: anything we did not ask?
+01:45 Thanks, reimbursements, refreshments
+Notes: if recorded or used for research, ethics approval and written consent are required. Use a facilitator and a separate note-taker.
+Typical budget lines: small venue (half day), refreshments, transport reimbursement, facilitator stipend, co-facilitator or note-taker stipend, contingency.
+
+MEETING TYPE: Community Advisory Board (CAB) meeting
+Purpose: CAB members review study materials, raise community concerns and give feedback to researchers.
+Size and length: 10 to 20 members plus guests, 3 hours.
+Sample agenda (10:00–13:00):
+10:00 Opening, apologies, adoption of agenda and previous minutes
+10:15 Matters arising and action tracker
+10:30 Research team presentation (study update or new protocol)
+11:15 Tea break
+11:30 CAB discussion and questions; review of community-facing materials
+12:30 Community feedback and concerns from members' constituencies
+12:50 Dates, closing
+Typical budget lines: venue, catering (full lunch if over 3 hours), transport reimbursement, data for virtual members, printing, contingency.
+
+MEETING TYPE: Courtesy visit or stakeholder meeting (ward councillor, traditional leaders, clinic manager, school principal)
+Purpose: introduce the programme, get permission and support, agree on dates and venues.
+Size and length: 3 to 15 people, 1 hour.
+Protocol: request the meeting in writing at least 2 weeks ahead; for traditional leaders, go through the headman or induna and follow local protocol on dress and greetings; bring a one-page programme summary.
+Sample agenda (1 hour): introductions (10 min), programme overview (15 min), questions and concerns (20 min), agreed support and next steps (10 min), thanks (5 min).
+Typical budget lines: refreshments, printing of summaries, transport or mileage, contingency.
+
+MEETING TYPE: Results dissemination or community feedback meeting
+Purpose: report back to the community on what a programme or study found and what happens next.
+Size and length: 30 to 120 people, 2 to 3 hours.
+Sample agenda: welcome and reminder of why the community took part (15 min), findings in plain language with visuals (30 min), what the findings mean for the community (20 min), questions and discussion (45 min), next steps and how to stay involved (15 min), closing and meal.
+Tips: use simple language and pictures, avoid percentages where counts are clearer ("3 in every 10 young people"), translate slides into the local language.
+Typical budget lines: venue, catering, transport reimbursement, facilitator, printing of plain-language summaries, PA system, data projector if available, contingency.
+
+MEETING TYPE: Training or capacity building workshop
+Purpose: build skills of volunteers, peer educators, CAB members or partner staff.
+Size and length: 15 to 30 people, 1 to 3 full days.
+Sample agenda (full day, 08:30–16:00):
+08:30 Registration, pre-test
+09:00 Welcome, objectives, expectations
+09:30 Session 1
+10:30 Tea break
+10:45 Session 2 (practical exercise or role play)
+12:30 Lunch
+13:15 Energiser, Session 3
+14:45 Tea break
+15:00 Session 4: action planning
+15:45 Post-test, evaluation, certificates
+16:00 Close
+Typical budget lines: venue (full day per day), full lunch and refreshments per day, transport reimbursement per day, facilitator stipend per session, stationery, printing, certificates, accommodation for participants travelling far, contingency.
+
+MEETING TYPE: Health day, campaign launch or commemorative event
+Purpose: high-visibility outdoor or large-hall event with services (testing, screening) and information stands.
+Size and length: 150 to 500 people, half day to full day.
+Sample run sheet (09:00–14:00): set-up from 07:00, services and stands open 09:00, programme director welcome 10:00, speeches limited to 5 minutes each (10:15–11:00), drama, music or poetry by local youth (11:00–11:30), quiz with prizes (11:30–12:00), services continue, meal 12:30, close 14:00.
+Partner services: arrange mobile HIV testing, TB screening, contraception and other services with the local clinic or Department of Health at least 4 weeks ahead.
+Typical budget lines: marquee or venue, chairs, stage and sound, mobile toilets, security, first aid standby, catering, branding, community announcer, volunteers, prizes, contingency. Usually over R10,000, so pre-approval is needed.
+
+MEETING TYPE: Youth dialogue
+Purpose: safe, interactive space for young people to talk about sexual health, relationships, substance use, careers or mental health.
+Size and length: 20 to 60 young people, 2 to 3 hours.
+Sample agenda: arrival and music (15 min), icebreaker game (15 min), short scenario, video or drama (15 min), small group discussions by age band (45 min), peer feedback and Q&A with a youth-friendly nurse (30 min), quiz with small prizes (15 min), referrals and meal (15 min).
+Tips: separate 15–19 and 20–24 groups for sensitive topics; use peer facilitators close in age; hold after school hours or on Saturdays.
+Typical budget lines: venue, catering, transport reimbursement, facilitator and peer educator stipends, printing, prizes, data for registration, contingency.
+
+MEETING TYPE: Men's dialogue
+Purpose: engage men on health, HIV testing, fatherhood, GBV prevention and seeking care.
+Size and length: 15 to 50 men, 1.5 to 2.5 hours.
+Sample agenda: welcome by a respected male facilitator (10 min), opening question about what makes a man strong (15 min), short health input (15 min), story sharing or case study (30 min), open discussion (30 min), on-site testing or referral offer (ongoing), meal and close.
+Tips: meet men where they are (sports fields, taxi ranks, workplaces, barbershops), hold in evenings or weekends, keep it short and practical, use male facilitators and peer champions.
+Typical budget lines: venue or gazebo, catering, facilitator stipend, PA or loud hailer, printing, contingency.
+
+MEETING TYPE: Support group session
+Purpose: regular, confidential peer support (for example people living with HIV, GBV survivors, caregivers, mental health).
+Size and length: 6 to 15 members, 1.5 to 2 hours, weekly or fortnightly.
+Sample agenda: check-in round (20 min), topic or skills input (20 min), sharing and peer support (40 min), coping or wellness exercise (15 min), check-out and next date (10 min).
+Rules: confidentiality agreement, no photos, no names in reports, a referral pathway for anyone in distress, same trained facilitator each time.
+Typical budget lines: venue (half day), refreshments, transport reimbursement, facilitator stipend, contingency.
+
+MEETING TYPE: Door-to-door or household outreach
+Purpose: reach people who do not attend meetings, share information and refer to services.
+Team and length: pairs of trained volunteers or peer educators, 4 to 6 hours a day, 15 to 25 households per pair per day.
+Process: briefing at 08:00, area allocation, visits, debrief and data capture at 14:00.
+Typical budget lines: volunteer allowance or peer educator stipend per day, branded T-shirts or bibs, printing of flyers, data, mobile data for capture, contingency.
+
+MEETING TYPE: Virtual or hybrid meeting
+Purpose: meetings with members who cannot travel, or quick coordination.
+Length: keep online sessions to 90 minutes or less.
+Tips: send the link and agenda 3 days ahead on WhatsApp and email, provide data vouchers to participants, have a host and a separate chat moderator, record only with consent, use a hybrid room with a speakerphone or PA if some people meet in person.
+Typical budget lines: data vouchers, venue and refreshments for the in-person group, facilitator stipend, contingency.
+
+MEETING TYPE: Partner coordination or quarterly review meeting
+Purpose: review progress against targets, share lessons, plan the next quarter.
+Size and length: 5 to 25 people, 2 to 4 hours.
+Sample agenda: welcome (10 min), progress dashboard by partner (45 min), what worked and what did not (30 min), challenges needing support (30 min), next quarter plan and dates (30 min), action items (15 min).
+Typical budget lines: venue, catering, transport reimbursement, printing, contingency.
+
+=== AUDIENCES: HOW TO ADAPT FOR WHO IS ATTENDING ===
+
+AUDIENCE: Adolescents (10–17)
+Consent: written parental or guardian consent and the young person's own assent are needed for under-18s. For school activities, also get the principal's written approval.
+Format: short activities (20 minutes at most per segment), games, drama and peer facilitators; separate 10–14 and 15–17.
+Safeguarding: at least 2 vetted adults present, never one adult alone with a child, no photos without parental consent, arrange safe transport home before dark.
+Timing: after school (14:30–16:30) or Saturday mornings; avoid exam periods.
+
+AUDIENCE: Young people (18–24) and adolescent girls and young women (AGYW)
+Format: interactive, music, social media style content, youth-friendly service providers, peer leaders.
+For AGYW: female facilitators, women-only spaces for sensitive topics, childcare corner, safe times and venues, link to PrEP, contraception and GBV services.
+Timing: weekday afternoons or Saturdays; avoid the start of month grant days and exam periods.
+
+AUDIENCE: Men (25–49)
+Format: short, practical, respected male facilitators, sports or workplace settings, humour and stories rather than lectures.
+Timing: evenings, weekends, before matches or at lunch at workplaces.
+Tip: offer services on site (testing, blood pressure) so men do not have to go to a clinic later.
+
+AUDIENCE: Older persons (60+)
+Format: seated, shaded venues close to home, clear large print, slower pace, accessible toilets, a respected local elder as co-host.
+Logistics: morning sessions, transport support, a meal (some attend fasting for medication), avoid pension pay-out days.
+
+AUDIENCE: People with disabilities
+Access: step-free venue, accessible toilet, reserved front seating, SASL interpreters for Deaf participants (book 2 weeks ahead), large print or audio materials, extra time.
+Practice: ask people what they need when they register, include a disability organisation in planning, budget for a support person's transport.
+
+AUDIENCE: People living with HIV
+Practice: never disclose anyone's status; avoid venue names or banners that reveal the group's purpose for support groups; partner with the clinic for treatment literacy; use the language of the community (avoid "infected", say "living with HIV").
+
+AUDIENCE: Key populations (sex workers, LGBTQIA+ people, people who use drugs)
+Practice: work through key population-led organisations, use trusted peer facilitators, choose safe and discreet venues, protect identities in registers (use codes), train staff on non-judgemental language.
+Timing: match the community's routine (for example late morning for sex workers).
+
+AUDIENCE: Traditional leaders and faith leaders
+Practice: formal invitation, protocol and titles, give them a role in opening or endorsing, meet them separately before a community event, respect customs on dress and seating.
+
+AUDIENCE: Parents and caregivers
+Format: practical tips on talking to children about sex, substance use and safety; evening or Saturday sessions; childcare corner.
+
+AUDIENCE: Migrants and cross-border communities
+Practice: interpreters for the main languages spoken, reassurance that services are available regardless of documentation where that is the case, trusted community leaders as co-hosts.
+
+AUDIENCE: Farm workers and rural communities
+Practice: meet at the farm or village after working hours, with the farm owner's or headman's permission; travel time and transport cost are the biggest barriers, so budget transport and food.
+
+AUDIENCE: Learners and schools
+Practice: written approval from the principal and, where needed, the district office; follow the school's timetable and policies; keep content age-appropriate; teachers may observe.
+
+=== TOPICS: KEY MESSAGES AND SESSION IDEAS ===
+
+TOPIC: HIV prevention and testing
+Key messages: HIV testing is free and confidential at public clinics; knowing your status is the first step; condoms prevent HIV and other STIs and pregnancy; PrEP is a daily pill (and in some places an injection) that prevents HIV for HIV-negative people at risk; PEP must be started within 72 hours of possible exposure.
+Session ideas: myth-or-fact game, condom demonstration (age-appropriate audiences only), testimony from a peer, on-site testing by a clinic partner.
+
+TOPIC: Living well with HIV and treatment literacy
+Key messages: antiretroviral treatment (ART) keeps people healthy; taking ART daily leads to an undetectable viral load; Undetectable equals Untransmittable (U=U) for sexual transmission; adherence clubs and pick-up points make collection easier.
+Session ideas: treatment buddy pairs, viral load explained with a simple picture, Q&A with a clinic nurse.
+
+TOPIC: Tuberculosis (TB)
+Key messages: TB is curable and treatment is free; symptoms to watch include a cough lasting 2 weeks or more, night sweats, weight loss and fever; people living with HIV are at higher risk; open windows and good ventilation reduce spread.
+Session ideas: symptom screening at the event, cough corner for sputum referral, stigma discussion.
+
+TOPIC: Gender-based violence (GBV)
+Key messages: GBV is never the survivor's fault; help is available (GBV Command Centre 0800 428 428); a protection order can be applied for at the magistrate's court; survivors of sexual assault should get to a clinic or Thuthuzela Care Centre as soon as possible, within 72 hours for PEP.
+Session ideas: community mapping of safe and unsafe places, bystander role plays, men as allies sessions.
+Care: always have a trained counsellor available and a referral list; never ask survivors to share stories publicly.
+
+TOPIC: Sexual and reproductive health and rights (SRHR) and contraception
+Key messages: contraception is free at public clinics; there are many methods (pills, injection, implant, IUD, condoms); young people have the right to confidential, youth-friendly services; dual protection means condoms plus another method.
+Session ideas: method choice cards, youth-friendly service mapping, clinic tour.
+
+TOPIC: Mental health
+Key messages: mental health problems are common and treatable; talking helps; warning signs include withdrawal, hopelessness and changes in sleep or eating; SADAG and Lifeline offer free support.
+Session ideas: stress bucket exercise, breathing and grounding techniques, peer listening skills.
+Care: have a trained counsellor present and a crisis referral plan for anyone at risk of self-harm.
+
+TOPIC: Substance use
+Key messages: alcohol and drugs increase health and safety risks, including HIV risk; help and treatment are available (SADAG substance abuse line 0800 12 13 14).
+Session ideas: decision-making scenarios, family support session, link to local rehabilitation services.
+
+TOPIC: Chronic conditions (hypertension, diabetes) and healthy ageing
+Key messages: many chronic conditions have no symptoms, so regular screening matters; take medication as prescribed; healthy eating and activity help.
+Session ideas: blood pressure and glucose screening with the clinic, healthy cooking demonstration, medication pick-up point information.
+
+TOPIC: Nutrition and food security
+Key messages: a varied diet with vegetables supports health and treatment; community and household gardens reduce costs.
+Session ideas: garden visit, seedling exchange, cooking demonstration with garden produce (links well with ENG-2026-002 Green Roots).
+
+TOPIC: Research literacy and community engagement in research
+Key messages: taking part in research is voluntary; informed consent means understanding the study before agreeing; participants can withdraw at any time; CABs represent community voices to researchers.
+Session ideas: "what is a study?" picture cards, consent role play, Q&A with study staff.
+
+TOPIC: Youth economic empowerment
+Key messages: skills, CVs and opportunities; links between financial independence and health.
+Session ideas: CV clinic, guest speaker from a local business, learnership information.
+
+=== SETTINGS AND VENUES ===
+Community hall: most common choice; book through the ward councillor or municipality 3 to 4 weeks ahead; check toilets, electricity, chairs and keys.
+School: only with principal approval; use after hours or weekends; leave classrooms as found.
+Church or faith venue: often free or by donation; respect the venue's rules; check it is welcoming for all audiences.
+Clinic or health facility: good for linking to services; agree with the facility manager; do not disrupt patient flow.
+Traditional court or village meeting place: requires the headman's permission; often outdoors, so plan for shade, chairs and weather.
+Outdoor venue (sports field, open space): needs municipal permission, marquee or gazebos, mobile toilets, security and first aid for large crowds.
+Tavern or shebeen: daytime before trading, with owner agreement; no alcohol served during the funded session.
+Taxi rank or workplace: short sessions (15 to 30 minutes), information stands, permission from the taxi association or employer.
+Online: see virtual meeting guidance; budget data vouchers.
+Venue checklist: capacity, step-free access, toilets, electricity and backup power, water, parking, safety at night, privacy for sensitive sessions, distance from public transport.
+
+=== LANGUAGES ===
+South Africa has 12 official languages: Sepedi, Sesotho, Setswana, siSwati, Tshivenda, Xitsonga, Afrikaans, English, isiNdebele, isiXhosa, isiZulu and South African Sign Language (SASL).
+Rule of thumb: plan sessions in the language most attendees speak at home, with materials translated, and offer interpretation for others.
+Gauteng: mixed; isiZulu, Sesotho, Setswana, Sepedi and English are widely used.
+KwaZulu-Natal: mostly isiZulu.
+Eastern Cape: mostly isiXhosa.
+Western Cape: Afrikaans, isiXhosa and English.
+Limpopo: Sepedi, Xitsonga and Tshivenda.
+Mpumalanga: siSwati, isiNdebele and isiZulu.
+North West: mostly Setswana.
+Free State: mostly Sesotho.
+Northern Cape: mostly Afrikaans, with Setswana.
+Always confirm with the local partner which languages are spoken in the specific ward.
+
+=== CALENDAR: PUBLIC HOLIDAYS, AWARENESS DAYS AND TIMING ===
+Public holidays 2026: 1 Jan New Year's Day; 21 Mar Human Rights Day; 3 Apr Good Friday; 6 Apr Family Day; 27 Apr Freedom Day; 1 May Workers' Day; 16 Jun Youth Day; 10 Aug public holiday for National Women's Day (9 Aug is a Sunday); 24 Sep Heritage Day; 16 Dec Day of Reconciliation; 25 Dec Christmas Day; 26 Dec Day of Goodwill.
+Awareness days and months: 14 Feb Condom Day and STI week; 24 Mar World TB Day; June Youth Month; August Women's Month; October Mental Health Awareness Month and Breast Cancer Awareness Month; 10 Oct World Mental Health Day; 25 Nov to 10 Dec 16 Days of Activism for No Violence Against Women and Children; 1 Dec World AIDS Day; 3 Dec International Day of Persons with Disabilities.
+Timing tips: avoid the first days of the month when social grants are paid, school exam periods, major funerals in the community, and the December and Easter holidays when many people travel.
+Season tips: summer (Nov–Feb) brings heat and afternoon thunderstorms, so plan shade, water and indoor backups; winter (Jun–Aug) evenings are cold and dark early, so end before 17:00.
+Weekdays vs weekends: working adults and men are easier to reach in evenings and on weekends; older persons and caregivers prefer weekday mornings.
+
+=== PLANNING TIMELINE (WORK BACK FROM THE EVENT DATE) ===
+6 weeks before: agree purpose, audience and target numbers; draft agenda and budget; request courtesy meetings with leaders.
+4 weeks before: submit pre-approval if the budget is over the threshold (at least 10 working days ahead, 20 for large events); book venue; request services from the clinic or Department of Health; book interpreters.
+3 weeks before: get quotes; confirm facilitators and speakers; send artwork for approval.
+2 weeks before: print materials; start mobilisation (WhatsApp, flyers, announcements, community radio); confirm catering numbers range.
+1 week before: confirm venue, catering, transport and equipment; brief facilitators and volunteers; prepare registers and consent forms.
+2 days before: final numbers to caterer; pack materials; check PA, power and backup.
+On the day: arrive 1.5 hours early; set up registration; safety briefing for team; start on time.
+Within 2 days after: pay reimbursements and suppliers, debrief the team, file registers.
+Within 7 days after: submit the event report for funded events over R10,000.
+
+=== LOGISTICS CHECKLIST ===
+Venue booked and confirmed in writing, keys arranged, chairs and tables counted.
+Registration: attendance register, pens, name tags, consent forms, reimbursement register, mobile data for digital registration.
+Materials: printed agendas, flyers, flipcharts, markers, evaluation forms.
+Equipment: PA system, extension cords, projector if needed, backup power.
+Catering: confirmed numbers, dietary needs (halaal, vegetarian, diabetic), water, serving times.
+Accessibility: step-free entry, interpreters booked, large print copies, reserved seating.
+Safety: first aid kit, safety lead named, emergency numbers, nearest clinic noted.
+Services: clinic partner confirmed, private space for testing or counselling.
+Team roles: lead facilitator, co-facilitator, registration, timekeeper, note-taker, logistics, safety lead, photographer (if consented).
+Close-out: venue left clean, equipment returned, money reconciled.
+
+=== RISKS AND CONTINGENCY PLANS ===
+Low turnout: mobilise through trusted leaders and WhatsApp groups, send reminders 2 days and 1 day before, provide transport reimbursement, hold the event close to where people live.
+Too many people: have extra registers, a plan for queueing, and catering top-up options; prioritise registered participants for reimbursements.
+Power cuts or load reduction: check the schedule, hire a generator or plan activities that do not need power.
+Bad weather: indoor backup venue, marquee or gazebos, postponement message ready.
+Community unrest or protest: check with the ward councillor and police the day before; postpone if unsafe and tell participants early.
+Speaker no-show: have a backup facilitator and a ready discussion activity.
+Disruption during the meeting: the facilitator restates ground rules; the safety lead escalates; end the meeting early if needed.
+Distress or disclosure during a session: pause, move the person to a private space with a counsellor, follow the referral pathway, report safeguarding concerns within 24 hours.
+
+=== SAFEGUARDING ===
+Everyone working on funded activities signs the code of conduct and completes safeguarding training.
+Children (under 18): parental consent and child assent, two-adult rule, no private contact on social media, no photos without consent.
+Disclosures of abuse: listen, do not investigate, do not promise secrecy, keep the person safe, report to the partner's safeguarding lead and to the engagement office (safeguarding@example.org) within 24 hours. Suspected child abuse must be reported to SAPS or the Department of Social Development as required by law.
+Sexual exploitation and abuse by staff or volunteers is gross misconduct and is reported immediately.
+Support groups and GBV work: trauma-informed facilitators only, confidential venues, no recording.
+
+=== DATA PROTECTION (POPIA) AND CONSENT ===
+Collect only the personal information you need (attendance registers usually need name or initials, age band, sex, ward and signature).
+Tell people why the information is collected and who will see it.
+Store registers in a locked place or a password-protected device; never share them in WhatsApp groups.
+Use codes instead of names for sensitive groups (key populations, support groups, survivors).
+Photos and recordings need written consent; people may refuse without losing any benefit.
+Keep records for 5 years, then destroy them securely.
+
+=== MONITORING AND EVALUATION ===
+Attendance register fields: date, venue, activity, name or code, age band, sex, ward, contact (optional), signature.
+Age bands for reporting: 10–14, 15–19, 20–24, 25–29, 30–34, 35–49, 50–59, 60+.
+Common indicators: number of events held; number of people reached by sex and age band; number referred to services by service type; number who received services on site; number of volunteers trained; percentage of participants rating the event useful.
+Referral tracking: use referral slips with a code; follow up with the clinic monthly to count completed referrals.
+Evaluation: a short form or show-of-hands at the end (was it useful, what did you learn, what should change). Use pre and post tests for trainings.
+Stories: collect 1 most significant change story per quarter, with consent and without identifying details.
+Data quality: check registers on the day, total them within 2 days, and match totals to reimbursement registers.
+
+=== REPORT TEMPLATES ===
+Quarterly narrative report sections: 1 summary; 2 activities held vs planned; 3 people reached (by sex and age band); 4 progress against targets; 5 referrals and linkage; 6 challenges and how they were handled; 7 lessons learned; 8 a community story; 9 plans for next quarter; 10 support needed.
+Quarterly financial report: budget vs actual by line, variance explanation for any line over or under by more than 10%, receipts, proof of payment, signed attendance and reimbursement registers, bank statement.
+Event report (2 pages): event name, date and venue; purpose; attendance by sex and age band; summary of discussion; services delivered and referrals; issues raised by the community; budget vs actual; photos with consent; follow-up actions.
+Final report: everything in a quarterly report for the whole period, plus overall results vs targets, sustainability plans and an asset list.
+
+=== REFERRAL DIRECTORY: HELPLINES AND EMERGENCY PHONE NUMBERS (national lines, verify before printing) ===
+Emergency from a mobile phone: 112
+SAPS (police) emergency: 10111
+Ambulance: 10177
+GBV Command Centre (24 hours): 0800 428 428
+Childline South Africa: 116
+Lifeline (counselling): 0861 322 322
+SADAG (South African Depression and Anxiety Group) suicide crisis line: 0800 567 567
+SADAG substance abuse line: 0800 12 13 14
+National AIDS Helpline: 0800 012 322
+Thuthuzela Care Centres: one-stop centres for sexual assault survivors, usually at public hospitals; ask the local clinic or police station for the nearest one.
+Local services: each partner keeps a local referral list (clinic, social worker, police station, shelter, legal aid) and brings it to every event.
+
+=== CONTACTS AND ESCALATION (SAMPLE: replace with your own) ===
+General engagement queries: engagements@example.org (replies within 2 working days)
+Finance, disbursements and receipts: finance@example.org
+Safeguarding concerns and incidents: safeguarding@example.org (24-hour reporting)
+Branding, media and artwork approval: comms@example.org
+Complaints: complaints@example.org
+Fraud and ethics (confidential): ethics@example.org
+Escalation path: engagement officer, then engagement manager, then programme manager.
+Partner portal: report submissions, budget pre-approvals and document uploads.
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: When is my next quarterly report due? A: Q3 (Jul–Sep) reports are due 15 Oct 2026 and Q4 (Oct–Dec) reports are due 15 Jan 2027.
+Q: How long after my report is approved do I receive funds? A: Within 14 days of report approval.
+Q: Why has my disbursement not arrived? A: Usually because the report is not yet approved, queries are open, or bank details changed. Check the portal and contact finance@example.org.
+Q: Can I move money between budget lines? A: Up to 10% of a line without approval; more needs written approval first.
+Q: Do I need approval for my event budget? A: Yes, if it costs more than R10,000. Submit at least 10 working days before.
+Q: Can I pay participants to attend? A: No. Participants receive transport reimbursement (and data or meals), not payment for attending.
+Q: Can I buy T-shirts or banners? A: Yes, if budgeted and the artwork is approved by comms@example.org.
+Q: What if fewer people come than planned? A: Pay only actual reimbursements, explain the variance in the event report, and adjust mobilisation next time.
+Q: Can we take photos at events? A: Only with written consent, and never in support groups, GBV sessions or of children without parental consent.
+Q: Can we work in schools? A: Yes, with the principal's written approval and parental consent for learners under 18.
+Q: How do I add a new site or change targets? A: Request a contract amendment before making the change.
+Q: How do I request more time to finish activities? A: Request a no-cost extension at least 30 days before the end date.
+Q: What happens if my report is late? A: More than 14 days late puts the engagement on hold until it is approved. Request an extension before the due date if you need one.
+Q: How do I join the programme as a new CBO? A: Register on this site, then complete onboarding documents and due diligence (about 3 to 4 weeks).
+Q: Who do I contact about a safeguarding issue? A: safeguarding@example.org within 24 hours, and the police or Social Development where the law requires.
+Q: Are accessibility costs allowed? A: Yes. SASL interpreters, large print, childcare and accessible venues are always allowable.
+Q: Can we serve alcohol at a celebration? A: No funded event may serve or pay for alcohol.
+
+=== GLOSSARY ===
+AGYW: adolescent girls and young women, usually aged 15–24.
+ART: antiretroviral treatment for HIV.
+CAB: Community Advisory Board, community members who advise researchers.
+CBO: community-based organisation.
+Contingency: an extra amount (10%) added to a budget for unexpected costs.
+Disbursement: a payment of grant funds to the partner.
+DSD: Department of Social Development.
+FGD: focus group discussion.
+GBV: gender-based violence.
+Imbizo: a community gathering or open meeting.
+Induna: a headman or traditional leader's representative.
+KP: key populations, groups at higher risk of HIV who face barriers to services.
+No-cost extension: more time to finish activities with no extra funding.
+NPO: non-profit organisation registered with the Department of Social Development.
+PEP: post-exposure prophylaxis, HIV medicine started within 72 hours after a possible exposure.
+POPIA: Protection of Personal Information Act, South Africa's data protection law.
+PrEP: pre-exposure prophylaxis, medicine taken by HIV-negative people to prevent HIV.
+Retention: the last 10% of a grant held until the final report is approved.
+SASL: South African Sign Language.
+SRHR: sexual and reproductive health and rights.
+Stipend: a payment for work done by facilitators or peer educators.
+Thuthuzela Care Centre: a one-stop centre for survivors of sexual violence.
+U=U: Undetectable equals Untransmittable.
+Ward councillor: the elected local government representative for a ward.
+
+=== COMBINING BUILDING BLOCKS FOR SPECIFIC REQUESTS ===
+
+How to build a tailored plan: start from the MEETING TYPE agenda, then adjust timing, facilitators, venue and tone using the AUDIENCE block, add key messages and activities from the TOPIC block, apply the SETTING and LANGUAGE notes, check the CALENDAR for clashes and awareness days, then build the budget from STANDARD RATES plus any ADDITIONAL RATES the mix requires. Link the plan to the relevant engagement ID when one fits.
+
+How mixing changes the budget: a youth audience adds peer educator stipends and prizes; people with disabilities add SASL interpreters and large print; caregivers add a childcare corner; outdoor settings add marquee, chairs, toilets and security; rural settings add higher transport costs or a hired minibus; overnight trainings add accommodation and dinner; virtual participants add data vouchers; large public events add first aid and security. Everything still gets a 10% contingency line.
+
+Example mix: a World AIDS Day youth event for ENG-2026-003 combines the health day run sheet, the young people audience notes, HIV prevention and PrEP topic messages, an outdoor or hall setting, and 1 Dec timing; budget lines include venue or marquee, catering, transport, facilitators, peer educators, sound, prizes, branding and first aid. It will likely exceed R10,000 and need pre-approval by mid-November.
+
+Example mix: a men's soccer health day for ENG-2026-004 combines the health day run sheet with the men's dialogue format, a sports field setting (municipal permission, gazebos, toilets, security), on-site HIV testing and blood pressure screening, and a weekend date; prizes stay within the R1,000 limit.
+
+Example mix: a 16 Days of Activism community event for ENG-2026-005 combines the community dialogue agenda with the GBV topic, trauma-informed care rules, a counsellor on site, no photos of survivors, the GBV Command Centre number on all materials, and a men as allies session.
+
+Example mix: a CAB refresher training for ENG-2026-006 combines the training workshop agenda with the research literacy topic, a full day with full lunch, certificates, and data vouchers for members joining online.
+
+Example mix: an accessible health information session for ENG-2026-007 combines the community dialogue agenda with the people with disabilities audience notes: 2 SASL interpreters, large print and audio materials, a step-free venue, and extra time in every segment.
+
+Example mix: a medication pick-up point awareness morning for ENG-2025-009 combines the community dialogue agenda with the older persons audience notes and the chronic conditions topic: seated shaded venue, morning start, blood pressure screening by the clinic, and avoiding pension pay-out days.
+
+When information is missing: state reasonable assumptions (for example 50 people, half day, community hall, local language) and invite the person to correct them.
+When the request is outside this knowledge base: say so and refer the person to engagements@example.org.
